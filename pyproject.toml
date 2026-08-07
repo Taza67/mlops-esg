@@ -19,5 +19,8 @@ dependencies = [
     "uvicorn[standard]",
 ]
 
+[project.scripts]
+mlops-esg-api = "mlops_esg.api.app:run"
+
 [tool.setuptools.packages.find]
 where = ["src"]
