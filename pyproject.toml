@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlops-esg"
+version = "0.1.0"
+description = "Asynchronous zero-shot ESG text classification with FastAPI, Redis, and RQ"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "httpx",
+    "pydantic-settings",
+    "redis",
+    "rq",
+    "textual",
+    "torch",
+    "transformers",
+    "uvicorn[standard]",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

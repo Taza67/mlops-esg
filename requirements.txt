@@ -1,0 +1,9 @@
+fastapi
+httpx
+pydantic-settings
+redis
+rq
+textual
+torch
+transformers
+uvicorn[standard]
