@@ -21,6 +21,7 @@ dependencies = [
 
 [project.scripts]
 mlops-esg-api = "mlops_esg.api.app:run"
+mlops-esg-tui = "mlops_esg.tui.app:run"
 
 [tool.setuptools.packages.find]
 where = ["src"]
