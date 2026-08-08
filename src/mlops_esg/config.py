@@ -8,3 +8,4 @@ class Settings(BaseSettings):
     queue_name: str = "default"
     api_host: str = "0.0.0.0"
     api_port: int = 8000
+    model_id: str = "facebook/bart-large-mnli"

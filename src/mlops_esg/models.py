@@ -11,6 +11,12 @@ class JobStatus(StrEnum):
     FAILED = "failed"
 
 
+class EsgLabel(StrEnum):
+    ENVIRONMENT = "Environment"
+    SOCIAL = "Social"
+    GOVERNANCE = "Governance"
+
+
 @dataclass(frozen=True)
 class JobRecord:
     id: str
