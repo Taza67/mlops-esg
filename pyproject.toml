@@ -7,6 +7,7 @@ name = "mlops-esg"
 version = "0.1.0"
 description = "Asynchronous zero-shot ESG text classification with FastAPI, Redis, and RQ"
 requires-python = ">=3.11"
+license = { text = "MIT" }
 dependencies = [
     "fastapi",
     "httpx",
