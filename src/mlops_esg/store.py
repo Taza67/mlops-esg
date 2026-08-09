@@ -25,7 +25,7 @@ class JobStore(Protocol):
 
 
 class RedisJobStore:
-    """Job record (hash) in Redis. Distinct from the RQ queue list."""
+    """Job record (hash). Distinct from the RQ list and from the document stream."""
 
     def __init__(self, redis: Redis) -> None:
         self._redis = redis
